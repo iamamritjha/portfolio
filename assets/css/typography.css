@@ -1,0 +1,123 @@
+/* ============================================================
+   TYPOGRAPHY & MONOSPACE LABELS
+============================================================ */
+
+.font-mono {
+  font-family: 'JetBrains Mono', 'SF Mono', Consolas, Menlo, monospace;
+}
+
+.font-heading {
+  font-family: 'Syne', 'Plus Jakarta Sans', -apple-system, sans-serif;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Syne', sans-serif;
+  color: var(--text-primary);
+  font-weight: 700;
+  line-height: 1.15;
+  letter-spacing: -0.025em;
+}
+
+/* System Spec Code/Labels */
+.sys-label {
+  font-family: 'JetBrains Mono', monospace;
+  font-size: 0.72rem;
+  font-weight: 600;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  color: var(--badge-text);
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.sys-label-dot {
+  width: 7px;
+  height: 7px;
+  border-radius: 50%;
+  background-color: var(--accent-emerald);
+  display: inline-block;
+  box-shadow: 0 0 10px var(--accent-emerald);
+}
+
+.sys-tag {
+  font-family: 'JetBrains Mono', monospace;
+  font-size: 0.75rem;
+  padding: 4px 10px;
+  border-radius: var(--radius-sm);
+  background: var(--badge-bg);
+  border: 1px solid var(--badge-border);
+  color: var(--badge-text);
+  white-space: nowrap;
+}
+
+.sys-tag.tag-blue {
+  background: rgba(37, 99, 235, 0.1);
+  border-color: rgba(37, 99, 235, 0.25);
+  color: var(--accent-blue-bright);
+}
+
+.sys-tag.tag-emerald {
+  background: rgba(16, 185, 129, 0.1);
+  border-color: rgba(16, 185, 129, 0.25);
+  color: var(--accent-emerald);
+}
+
+.sys-tag.tag-amber {
+  background: rgba(245, 158, 11, 0.1);
+  border-color: rgba(245, 158, 11, 0.25);
+  color: var(--accent-amber);
+}
+
+/* Hero Typography */
+.hero-title {
+  font-size: clamp(2.4rem, 5.5vw, 4.4rem);
+  font-weight: 800;
+  letter-spacing: -0.035em;
+  margin-top: 14px;
+  margin-bottom: 22px;
+  line-height: 1.08;
+}
+
+.hero-title em {
+  font-style: italic;
+  font-weight: 800;
+  color: var(--accent-blue-bright);
+}
+
+.hero-subtitle {
+  font-size: clamp(1rem, 1.8vw, 1.25rem);
+  color: var(--text-secondary);
+  line-height: 1.7;
+  max-width: 620px;
+  margin-bottom: 34px;
+}
+
+.hero-subtitle strong {
+  color: var(--text-primary);
+  font-weight: 600;
+}
+
+/* Section Headings */
+.section-meta {
+  font-family: 'JetBrains Mono', monospace;
+  font-size: 0.75rem;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+  color: var(--accent-blue-bright);
+  margin-bottom: 8px;
+  display: block;
+}
+
+.section-title {
+  font-size: clamp(1.8rem, 3.2vw, 2.8rem);
+  font-weight: 800;
+  margin-bottom: 12px;
+}
+
+.section-desc {
+  font-size: 1.05rem;
+  color: var(--text-secondary);
+  max-width: 680px;
+  margin-bottom: 48px;
+}

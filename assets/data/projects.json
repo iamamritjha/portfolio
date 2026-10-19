@@ -1,0 +1,237 @@
+[
+  {
+    "id": "lifeledger",
+    "title": "LifeLedger — AI Health Intelligence Platform",
+    "shortTitle": "LifeLedger",
+    "category": "Full-Stack Web Application // HealthTech & AI",
+    "status": "Lead Spotlight // Active",
+    "statusBadge": "Verified Production Lab",
+    "date": "July 2026 — Present",
+    "featured": true,
+    "tagline": "AI-Powered Personal Health Intelligence Platform & Unified Medical Vault",
+    "summary": "Centralized, provider-neutral digital health vault unifying longitudinal medical records, appointments, and prescriptions with LLM-based clinical report summarization and symptom guidance.",
+    "problem": "Patient health records are fractured across hospital portals (Apollo, Practo, 1mg, physical files), causing clinical context loss, manual review friction, and missed follow-up care.",
+    "solution": "Architected a provider-neutral digital health ecosystem featuring JWT + RBAC across 25+ endpoints, LLM clinical document extraction, Redis caching, real-time Socket.io alerts, and a longitudinal health timeline.",
+    "techStack": ["React.js", "TypeScript", "Node.js", "Express.js", "MongoDB", "JWT + RBAC", "Redis", "Socket.io", "Cloudinary", "AI APIs"],
+    "metrics": [
+      { "label": "Architecture", "value": "Decoupled Monolith / Microservices" },
+      { "label": "Security Layer", "value": "JWT + RBAC (25+ Endpoints)" },
+      { "label": "Realtime Pipeline", "value": "Socket.io & Redis Cache" },
+      { "label": "Data Model", "value": "10+ Indexed MongoDB Collections" }
+    ],
+    "highlights": [
+      "Engineered centralized digital health vault unifying medical records, prescriptions, and lab vitals into an immutable longitudinal timeline.",
+      "Built multi-role access control (Patient, Doctor, Admin) enforcing JWT + RBAC permissions centrally via Express middleware.",
+      "Integrated LLM-based summarization and symptom-guidance features into the document pipeline, slashing report-review overhead.",
+      "Modeled 10+ MongoDB collections with compound indexing, enabling fast sub-50ms longitudinal queries.",
+      "Introduced Redis caching for frequently queried doctor schedules and Socket.io for immediate emergency and appointment alerts."
+    ],
+    "images": {
+      "comparison": "assets/images/lifeledger-comparison.png",
+      "frontendArch": "assets/images/lifeledger-frontend-arch.png",
+      "backendArch": "assets/images/lifeledger-backend-arch.png"
+    },
+    "repoFrontend": "https://github.com/iamamritjha/LifeLedger_Frontend",
+    "repoBackend": "https://github.com/iamamritjha/LifeLedger_Backend",
+    "liveUrl": "https://github.com/iamamritjha/LifeLedger_Frontend"
+  },
+  {
+    "id": "flight-route",
+    "title": "Flight Route Optimization Engine",
+    "shortTitle": "Flight Route Optimizer",
+    "category": "Graph Algorithms & Routing // Systems",
+    "status": "Active Testing",
+    "statusBadge": "Algorithmic Lab",
+    "date": "Aug 2025 — Present",
+    "featured": true,
+    "tagline": "Graph-based flight routing and distance evaluation tool analyzing transit hops, network efficiency, and shortest pathways.",
+    "summary": "Algorithmic engine and interactive canvas visualizer evaluating multi-leg aviation transitions across directed, weighted graphs using Dijkstra and A* pathfinding.",
+    "problem": "Evaluating multi-leg flight corridors across dense international hubs requires geodesic Great-Circle distance modeling, transfer penalties, and asymmetric flight availability.",
+    "solution": "Built memory-efficient adjacency list graph structures in Python/C++, paired with a custom index-tracked binary min-heap for O(log V) priority updates, and an interactive HTML5 Canvas visualizer.",
+    "techStack": ["Python (Flask)", "JavaScript", "C++", "DSA", "HTML5 Canvas", "Dijkstra / A*"],
+    "metrics": [
+      { "label": "Algorithm", "value": "Dijkstra & A* Geodesic" },
+      { "label": "Heap Complexity", "value": "O(log V) Priority Queue" },
+      { "label": "Visualization", "value": "HTML5 Canvas Coordinate Map" },
+      { "label": "Target Metric", "value": "Min Hop & Layover Scoring" }
+    ],
+    "highlights": [
+      "Implemented Dijkstra and A* algorithms over directed, weighted adjacency list graphs.",
+      "Custom binary min-heap priority queue reducing vertex extraction complexity to O(log V).",
+      "Incorporated Great-Circle spherical trigonometric distance and layover minimum penalties.",
+      "Rendered dynamic flight paths, transit nodes, and real-time shortest corridors on HTML5 Canvas."
+    ],
+    "repoBackend": "https://github.com/iamamritjha/Flight_Route_Backend",
+    "repoFrontend": "https://github.com/iamamritjha/Flight_Route",
+    "liveUrl": "https://github.com/iamamritjha/Flight_Route"
+  },
+  {
+    "id": "personal-finance",
+    "title": "Personal Finance Tracker",
+    "shortTitle": "Finance Tracker",
+    "category": "Financial Analytics & Full-Stack Web",
+    "status": "Completed",
+    "statusBadge": "Production Ready",
+    "date": "Oct 2025 — Dec 2025",
+    "featured": true,
+    "tagline": "Full-stack personal finance and ledger application with dynamic cashflow analytics and budget forecasting.",
+    "summary": "Full-stack Python/Flask financial analytics suite featuring normalized 3NF relational schemas, dynamic Chart.js dashboards, and secure session management.",
+    "problem": "Manual spreadsheet reconciliation makes identifying discretionary cashflow leaks and sticking to category budgets tedious and prone to human error.",
+    "solution": "Engineered an end-to-end platform with parameterized SQL queries, interactive spending breakdown charts, threshold alerts, and bcrypt session isolation.",
+    "techStack": ["Python", "Flask", "MySQL", "Chart.js", "Bootstrap", "jQuery", "Bcrypt"],
+    "metrics": [
+      { "label": "Database Schema", "value": "Normalized 3NF Relational" },
+      { "label": "Query Security", "value": "100% Parameterized SQL" },
+      { "label": "Analytics", "value": "Dynamic Chart.js Visuals" },
+      { "label": "Auth Engine", "value": "Session State + Bcrypt" }
+    ],
+    "highlights": [
+      "Engineered normalized 3NF relational schema in MySQL with composite indexes on (user_id, transaction_date).",
+      "Eliminated SQL injection vulnerabilities through parameterized multi-criteria query builders.",
+      "Created dynamic client-side Chart.js dashboards displaying spending distribution and monthly cashflow balances.",
+      "Integrated visual budget thresholds providing real-time alerts when categories exceed planned limits."
+    ],
+    "repoBackend": "https://github.com/iamamritjha/Personal-Expense-Tracker",
+    "liveUrl": "https://github.com/iamamritjha/Personal-Expense-Tracker"
+  },
+  {
+    "id": "chai-code-cafe",
+    "title": "Chai Code Café Management System",
+    "shortTitle": "Chai Code Café POS",
+    "category": "Operations & POS Systems",
+    "status": "In Active Development",
+    "statusBadge": "Operational POS",
+    "date": "April 2025 — Present",
+    "featured": false,
+    "tagline": "3-terminal order dispatch, table billing, and inventory tracking platform engineered for high-turnover dining operations.",
+    "summary": "Specialized point-of-sale and kitchen order dispatch platform built to coordinate café table turnover, live KOT queues, and automated revenue audits.",
+    "problem": "Small café environments suffer from lost paper tickets, conflicting table states, and billing race conditions during peak rushes.",
+    "solution": "Built a 3-terminal POS system (Floor order, Kitchen Display System, Cashier billing) with MySQL row-level locking (SELECT ... FOR UPDATE) inside atomic transactions.",
+    "techStack": ["Python", "Flask", "MySQL", "JavaScript", "HTML5/CSS3", "C++"],
+    "metrics": [
+      { "label": "Workflow", "value": "Floor Grid -> KOT -> Cashier" },
+      { "label": "Concurrency", "value": "Atomic Row Locking" },
+      { "label": "Form Factor", "value": "Touch-First Tablet UI" },
+      { "label": "Latency", "value": "< 10ms Local SQLite/MySQL" }
+    ],
+    "highlights": [
+      "Engineered 3-tier operational workflow coordinating floor servers, kitchen prep displays, and cashier desks.",
+      "Guaranteed concurrency safety using MySQL SELECT FOR UPDATE transactions during simultaneous table edits.",
+      "Implemented live Kitchen Order Ticketing (KOT) with priority aging and customization notes.",
+      "Responsive, high-contrast touch interface optimized for fast table turnaround on tablets."
+    ],
+    "repoBackend": "https://github.com/iamamritjha/Chai-Code-Caf-Management-System",
+    "liveUrl": "https://github.com/iamamritjha/Chai-Code-Caf-Management-System"
+  },
+  {
+    "id": "smart-ecommerce",
+    "title": "Smart E-Commerce Application",
+    "shortTitle": "Smart E-Commerce",
+    "category": "Full-Stack Web Application // MERN",
+    "status": "Active Building",
+    "statusBadge": "MERN Architecture",
+    "date": "Feb 2026 — Present",
+    "featured": false,
+    "tagline": "Full-stack e-commerce engine featuring JWT authentication, persistent cart state, and optimized catalog queries.",
+    "summary": "Decoupled MERN stack application with signed JWT authentication in HTTP-only cookies, compound-indexed faceted search, and automated Postman test suites.",
+    "problem": "Cart state synchronization inconsistencies across devices and slow unindexed database queries during multifaceted product searches.",
+    "solution": "Designed decoupled RESTful endpoints with MongoDB compound indexing and custom React state hooks for predictable order lifecycles.",
+    "techStack": ["React.js", "Node.js", "Express.js", "MongoDB", "Postman", "JWT", "Bcrypt"],
+    "metrics": [
+      { "label": "Architecture", "value": "Decoupled MERN" },
+      { "label": "API Test Suite", "value": "Automated Postman Collection" },
+      { "label": "Catalog Queries", "value": "Compound Indexing" },
+      { "label": "Token Guard", "value": "HTTP-Only Refresh Cookie" }
+    ],
+    "highlights": [
+      "Architected clean separation between React SPA interface and Express/Node RESTful API backend.",
+      "Signed JWT authentication with bcrypt salted passwords and secure HTTP-only refresh token rotation.",
+      "Configured MongoDB compound indexes for instantaneous faceted category, price, and rating queries.",
+      "Automated Postman test suite validating response schemas, status codes, and authorization rules."
+    ],
+    "repoBackend": "https://github.com/iamamritjha/Smart_Ecommerce",
+    "liveUrl": "https://github.com/iamamritjha/Smart_Ecommerce"
+  },
+  {
+    "id": "civictracker",
+    "title": "CivicTracker & CivicTech Platform",
+    "shortTitle": "CivicTracker",
+    "category": "Civic Engagement & Community Systems",
+    "status": "Active Platform",
+    "statusBadge": "Public Sector Tech",
+    "date": "Feb 2026 — Present",
+    "featured": false,
+    "tagline": "Citizen grievance reporting, status pipeline, and civic infrastructure issue tracker.",
+    "summary": "Community issue management portal enabling residents to log local civic issues, track municipal resolution progress, and audit ward-level performance.",
+    "problem": "Lack of transparency and tracking in municipal complaint redressal, leading to neglected public infrastructure repairs.",
+    "solution": "Engineered an intuitive reporting portal with category routing, status lifecycle progression (Reported -> In Review -> Resolved), and public verification.",
+    "techStack": ["TypeScript", "React.js", "Node.js", "Express.js", "MongoDB", "REST API"],
+    "metrics": [
+      { "label": "Target Use", "value": "Citizen Issue Redressal" },
+      { "label": "Type Safety", "value": "Strict TypeScript End-to-End" },
+      { "label": "Status Pipeline", "value": "3-Stage Lifecycle Guard" }
+    ],
+    "highlights": [
+      "End-to-end TypeScript codebase ensuring strong type safety across API contracts and UI forms.",
+      "Structured grievance categorization: roads, water supply, electrical hazards, sanitation.",
+      "Real-time status tracking enabling transparent oversight of public works accountability."
+    ],
+    "repoBackend": "https://github.com/iamamritjha/CivicTracker",
+    "liveUrl": "https://github.com/iamamritjha/CivicTracker"
+  },
+  {
+    "id": "ai-resume-analyzer",
+    "title": "AI Resume & ATS Intelligence Analyzer",
+    "shortTitle": "AI Resume Analyzer",
+    "category": "AI / NLP & Career Technology",
+    "status": "Active Tool",
+    "statusBadge": "NLP Pipeline",
+    "date": "May 2026 — Present",
+    "featured": false,
+    "tagline": "Intelligent resume parsing, keyword scoring, and ATS compliance evaluation engine.",
+    "summary": "NLP-assisted resume scoring tool analyzing candidate profiles against target job descriptions, extracting key competencies, and highlighting skills gaps.",
+    "problem": "Job candidates face automated ATS rejections without feedback on missing keywords, formatting traps, or relevance metrics.",
+    "solution": "Built a text extraction and semantic scoring pipeline that highlights missing technical keywords, calculates match coefficients, and offers actionable bullet point rewrites.",
+    "techStack": ["Python", "NLP", "Generative AI", "Streamlit/Flask", "Regex", "Scikit-Learn"],
+    "metrics": [
+      { "label": "Core Model", "value": "Semantic Match & TF-IDF" },
+      { "label": "Extraction", "value": "PDF / Docx Text Pipeline" },
+      { "label": "Audit Type", "value": "ATS Format & Competency Gap" }
+    ],
+    "highlights": [
+      "Automated PDF parsing and text tokenization for technical work history extraction.",
+      "TF-IDF and semantic similarity scoring benchmarked against industry job specifications.",
+      "Actionable recommendations providing concrete phrasing enhancements for quantified achievements."
+    ],
+    "repoBackend": "https://github.com/iamamritjha/Ai_Resume_Analyzer",
+    "liveUrl": "https://github.com/iamamritjha/Ai_Resume_Analyzer"
+  },
+  {
+    "id": "nexus-initiative",
+    "title": "NEXUS Initiative — Autonomous Multi-Agent Coordination",
+    "shortTitle": "NEXUS Initiative",
+    "category": "AI Systems & Autonomous Simulation",
+    "status": "Research Concept",
+    "statusBadge": "Research Initiative",
+    "date": "2026 — Forward",
+    "featured": false,
+    "tagline": "Exploring multi-agent dynamics, counterfactual simulations, and deterministic evaluation harnesses.",
+    "summary": "Research-led initiative investigating autonomous agent negotiation, decision arenas, and synthetic evaluation environments under constrained resources.",
+    "problem": "Evaluating emergent multi-agent behaviors under ambiguous constraints requires deterministic testing environments rather than ad-hoc prompting.",
+    "solution": "Conceptualizing specialized simulation harnesses (Agent Arena, What-If Simulator) to systematically evaluate agent negotiation, task delegation, and decision boundaries.",
+    "techStack": ["Python", "TypeScript", "LLM Orchestration", "Discrete Simulation", "JSON Schema"],
+    "metrics": [
+      { "label": "Initiative Status", "value": "Upcoming Systems Research" },
+      { "label": "Evaluation Standard", "value": "Deterministic Step Snapshots" },
+      { "label": "Sub-Modules", "value": "Arena / What-If / Telemetry" }
+    ],
+    "highlights": [
+      "Formulated architectural blueprint for deterministic multi-agent simulation testbed.",
+      "Designed Agent Arena framework for collaborative vs. competitive resource negotiation.",
+      "Designed What-If Counterfactual Simulator tracking branching decision trajectories.",
+      "Defined structured telemetry capture for token spend, latency, and reasoning graphs."
+    ],
+    "repoBackend": "https://github.com/iamamritjha",
+    "liveUrl": "https://github.com/iamamritjha"
+  }
+]

@@ -1,0 +1,95 @@
+/* ============================================================
+   DESIGN TOKENS & THEMING (SYSTEMS LAB / EDITORIAL CRAFT)
+============================================================ */
+
+:root {
+  /* Dark Theme (Default Systems Lab Theme) */
+  --bg-primary: #0a0b10;
+  --bg-secondary: #0f1118;
+  --bg-tertiary: #151822;
+  --bg-elevated: rgba(22, 26, 38, 0.7);
+  --card-bg: rgba(255, 255, 255, 0.03);
+  --card-hover-bg: rgba(255, 255, 255, 0.06);
+  --card-border: rgba(255, 255, 255, 0.08);
+  --card-border-hover: rgba(79, 140, 255, 0.4);
+
+  --text-primary: #f2f4f8;
+  --text-secondary: #9aa4b8;
+  --text-muted: #5e687e;
+  --text-invert: #0a0b10;
+
+  /* Accent Colors */
+  --accent-blue: #2563eb;
+  --accent-blue-bright: #3b82f6;
+  --accent-cyan: #06b6d4;
+  --accent-emerald: #10b981;
+  --accent-amber: #f59e0b;
+  --accent-rose: #f43f5e;
+  --accent-purple: #8b5cf6;
+
+  /* Gradients */
+  --grad-hero-blue: linear-gradient(135deg, #3b82f6 0%, #2563eb 100%);
+  --grad-glow: radial-gradient(circle at 50% 50%, rgba(59, 130, 246, 0.15) 0%, transparent 70%);
+  --grad-border: linear-gradient(135deg, rgba(59, 130, 246, 0.4), rgba(16, 185, 129, 0.2), transparent);
+
+  /* Elevation & Shadows */
+  --shadow-sm: 0 2px 8px rgba(0, 0, 0, 0.3);
+  --shadow-md: 0 8px 30px rgba(0, 0, 0, 0.4);
+  --shadow-lg: 0 20px 50px rgba(0, 0, 0, 0.6);
+  --shadow-glow: 0 0 40px rgba(59, 130, 246, 0.2);
+
+  /* Monospace & System Tags */
+  --badge-bg: rgba(255, 255, 255, 0.05);
+  --badge-border: rgba(255, 255, 255, 0.12);
+  --badge-text: #8ea0be;
+
+  /* Geometry */
+  --radius-sm: 6px;
+  --radius-md: 12px;
+  --radius-lg: 18px;
+  --radius-xl: 24px;
+  --radius-full: 9999px;
+
+  /* Transitions */
+  --ease-smooth: cubic-bezier(0.16, 1, 0.3, 1);
+  --transition-fast: 0.2s var(--ease-smooth);
+  --transition-normal: 0.35s var(--ease-smooth);
+  --transition-slow: 0.6s var(--ease-smooth);
+
+  --nav-height: 72px;
+  --banner-height: 44px;
+}
+
+body.banner-hidden {
+  --banner-height: 0px;
+}
+
+[data-theme="light"] {
+  --bg-primary: #f8fafc;
+  --bg-secondary: #f1f5f9;
+  --bg-tertiary: #e2e8f0;
+  --bg-elevated: rgba(255, 255, 255, 0.9);
+  --card-bg: rgba(255, 255, 255, 0.85);
+  --card-hover-bg: #ffffff;
+  --card-border: rgba(0, 0, 0, 0.09);
+  --card-border-hover: rgba(37, 99, 235, 0.4);
+
+  --text-primary: #0f172a;
+  --text-secondary: #475569;
+  --text-muted: #94a3b8;
+  --text-invert: #ffffff;
+
+  --accent-blue: #1d4ed8;
+  --accent-blue-bright: #2563eb;
+  --accent-cyan: #0891b2;
+  --accent-emerald: #059669;
+
+  --shadow-sm: 0 2px 8px rgba(15, 23, 42, 0.05);
+  --shadow-md: 0 8px 30px rgba(15, 23, 42, 0.08);
+  --shadow-lg: 0 20px 50px rgba(15, 23, 42, 0.12);
+  --shadow-glow: 0 0 35px rgba(37, 99, 235, 0.12);
+
+  --badge-bg: rgba(15, 23, 42, 0.04);
+  --badge-border: rgba(15, 23, 42, 0.12);
+  --badge-text: #475569;
+}
